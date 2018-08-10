@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af8cfa0e-7375-48bf-a922-eee351c8df80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/proj.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notepad.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../notepad.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../passwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../passwords.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj.html" beforeDir="false" afterPath="$PROJECT_DIR$/../proj.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +115,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="width" value="1386" />
     <option name="height" value="788" />
   </component>
