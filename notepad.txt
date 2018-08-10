@@ -6,3 +6,5 @@ google fonts
 box shadow css generator
 
 flex-positioning instead of absolute and relative positioning
+
+git hub>> git add . or *
