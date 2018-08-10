@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Modern+Antiqua" rel="stylesheet">
+    <style>
+        body
+        {
+            background-color: aqua;
+        }
+
+        table
+        {
+            width: 30%;
+            border: 1px solid black;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        th,td
+        {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        th
+        {
+            background-color: burlywood;
+            color: white;
+            border-color: #de4c4b;
+            font-family: 'Modern Antiqua', cursive;
+        }
+        td
+        {
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        tr:nth-child(even){
+            color: #de4c4b;
+            background-color: blueviolet;
+        }
+        tr:nth-child(odd){
+            color: #2a41de;
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Age</th>
+        </tr>
+
+        <tr>
+            <td>Nancy</td>
+            <td>nancy@gmail.com</td>
+            <td>32</td>
+        </tr>
+
+        <tr>
+            <td>Jane</td>
+            <td>jane@yahoo.com</td>
+            <td>25</td>
+        </tr>
+
+        <tr>
+            <td>James</td>
+            <td>james@yahoo.com</td>
+            <td>35</td>
+        </tr>
+
+        <tr>
+            <td>Gloria</td>
+            <td>glo@gmail.com</td>
+            <td>20</td>
+        </tr>
+
+        <tr>
+            <td>Joseph</td>
+            <td>joe@ymail.com</td>
+            <td>29</td>
+        </tr>
+
+
+    </table>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <style>
+        form
+        {
+            text-align: center;
+            padding: 12px;
+            margin: auto;
+            border: 2px solid blue;
+            width: 40%;
+            margin-top: 150px;
+            background-color: aqua;
+        }
+
+        .reg
+        {
+            width: 100%;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            padding: 12px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            form {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<form action="">
+
+    <fieldset>
+    <input class="reg" type="tel" placeholder="Telephone Number" maxlength="10" required>
+    <input class="reg" type="password" placeholder="Password" minlength="6" maxlength="12" required>
+    </fieldset>
+
+    <button class="reg">Login</button>
+</form>
+
+
+</body>
+</html>

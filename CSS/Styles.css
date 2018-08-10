@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Modern+Antiqua');
+
+body
+{
+    margin: 0;
+}
+
+ul
+{
+    background: #888888;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /*justify-content: flex-start;*/
+    /*justify-content: flex-end;*/
+    list-style: none;
+    align-items: center;
+    height: 51px;
+    padding: 6px;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+.nav a
+{
+    text-decoration: none;
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 18px;
+    padding-left: 18px;
+}
+
+/*pseudo class: css 3 transition effects*/
+.nav a:hover
+{
+    background: #a8221a;
+    color: #3d45ff;
+    border-bottom: 2px solid #fffd65;
+    transition: background 1s, color 1s, border-bottom 1.2s;
+    font-family: 'Modern Antiqua', cursive;;
+    transition-timing-function: ease-in;
+}
+
+.farm
+{
+    background: #25e9e1;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-size: 1.5em;
+}
+
+.farm h1
+{
+    margin: 0;
+}
+
+.farm a
+{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
